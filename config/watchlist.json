@@ -1,0 +1,11 @@
+{
+  "watched_orgs": [
+    "Department of Homeland Security",
+    "Executive Office of the President",
+    "Election Assistance Commission",
+    "Federal Election Commission",
+    "United States Postal Service",
+    "Postal Regulatory Commission"
+  ],
+  "extra_roots": ["usps.com"]
+}

@@ -1,0 +1,73 @@
+name: check govsite-watch
+
+on:
+  schedule:
+    - cron: "11 12 * * *"   # daily, 12:11 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: govsite-watch-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - id: dotgov
+        run: python dotgov_snapshot.py
+
+      - id: ct
+        run: python ct_snapshot.py
+
+      # Commits whenever files changed, including the first-run baseline, which
+      # the *_changed flags deliberately report as false so it doesn't alert.
+      - name: Commit new snapshots
+        run: |
+          git config user.name "govsite-watch"
+          git config user.email "actions@github.com"
+          git add snapshots/ state.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "snapshot: $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and rebasing before retrying"
+            git pull --rebase -X ours origin main
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push after multiple retries"
+          exit 1
+
+      - name: Open an issue
+        if: steps.dotgov.outputs.dotgov_changed == 'true' || steps.ct.outputs.ct_changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const read = (p) => fs.existsSync(p) ? fs.readFileSync(p, 'utf8').trim() : '';
+            const dotgovDiff = read('snapshots/dotgov/latest-diff.md');
+            const ctDiff = read('snapshots/ct/latest-diff.md');
+            const sections = [];
+            if (dotgovDiff) sections.push('## New/dropped .gov domain registrations\n\n' + dotgovDiff);
+            if (ctDiff) sections.push('## New hostnames (Certificate Transparency)\n\n' + ctDiff);
+            if (sections.length === 0) return;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `govsite-watch: change detected — ${new Date().toISOString().slice(0, 10)}`,
+              body: sections.join('\n\n') + '\n\nRead the caveats in the README before treating any row as a finding.',
+            });
