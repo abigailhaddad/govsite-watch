@@ -1,2 +1,0 @@
-- trumptv.gov — CT history: 1 cert(s), first 2026-09-24, last 2026-09-24
-- www.trumptv.gov — CT history: 1 cert(s), first 2026-09-24, last 2026-09-24
