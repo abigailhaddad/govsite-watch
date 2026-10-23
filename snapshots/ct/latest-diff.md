@@ -1,3 +1,2 @@
-- 🔺 **uat.omb.gov** — looks pre-launch (matched: uat); CT history: 3 cert(s), first 2026-09-15, last 2026-09-15
-- electionintel.eac.gov — no prior CT history — genuinely new
-- acprod.fams.tsa.gov — no prior CT history — genuinely new
+- forge.ndstudio.gov — CT history: 1 cert(s), first 2026-10-16, last 2026-10-16
+- riders.ndstudio.gov — no prior CT history — genuinely new
