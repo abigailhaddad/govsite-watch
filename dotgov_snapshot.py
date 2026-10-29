@@ -57,6 +57,9 @@ def load_manifest() -> list[dict]:
 
 def main() -> int:
     SNAPS.mkdir(parents=True, exist_ok=True)
+    # The issue step reads latest-diff.md, so clear the last run's: an unchanged run
+    # returns before writing one, and the old diff got re-posted (2026-10-26 to 10-29).
+    (SNAPS / "latest-diff.md").unlink(missing_ok=True)
     rows = watched_rows(fetch(SOURCE_URL))
     domains = sorted(r["Domain name"] for r in rows)
     digest = hashlib.sha256(",".join(domains).encode()).hexdigest()

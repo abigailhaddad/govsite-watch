@@ -80,6 +80,9 @@ def load_state() -> dict:
 
 def main() -> int:
     SNAPS.mkdir(parents=True, exist_ok=True)
+    # The issue step reads latest-diff.md, so clear the last run's: an unchanged run
+    # returns before writing one, and the old diff got re-posted (2026-10-26 to 10-29).
+    (SNAPS / "latest-diff.md").unlink(missing_ok=True)
     state = load_state()
     is_first_run = not state
     old_hostnames = {domain: set(entry["hostnames"]) for domain, entry in state.items()}
