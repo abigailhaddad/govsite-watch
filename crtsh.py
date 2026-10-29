@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import sys
 import time
+from http.client import HTTPException
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -41,7 +42,9 @@ def fetch_json(url: str, label: str, timeout: int = 45, retries: int = 2) -> lis
                 wait = 5 * (attempt + 1)
                 print(f"    {label}: HTTP {exc.code}, retrying in {wait}s", file=sys.stderr)
             time.sleep(wait)
-        except (URLError, TimeoutError, json.JSONDecodeError) as exc:
+        # crt.sh sometimes drops the connection mid-response: RemoteDisconnected
+        # (2026-10-27) and IncompleteRead (2026-10-29) both crashed the run.
+        except (URLError, TimeoutError, ConnectionError, HTTPException, json.JSONDecodeError) as exc:
             wait = 5 * (attempt + 1)
             print(f"    {label}: {type(exc).__name__}, retrying in {wait}s", file=sys.stderr)
             time.sleep(wait)
