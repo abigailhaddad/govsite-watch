@@ -1,1 +1,2 @@
-- electionintel.eac.gov — CT history: 1 cert(s), first 2026-10-07, last 2026-10-07
+- forge.ndstudio.gov — CT history: 1 cert(s), first 2026-10-16, last 2026-10-16
+- riders.ndstudio.gov — CT history: 1 cert(s), first 2026-10-15, last 2026-10-15
