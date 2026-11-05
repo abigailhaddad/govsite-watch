@@ -17,7 +17,7 @@
     ],
     "sha256": "917f64381af9b324dead049a7eeb92f00a0d78cef39d9e5078dc2c705e8af11a",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "ai.gov": {
     "hostnames": [
@@ -64,7 +64,7 @@
     ],
     "sha256": "959b87a768096fd16741600be09a1275d2d9d04b513a8beaab1e0ebe74079dbc",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "arcade.gov": {
     "hostnames": [
@@ -73,7 +73,7 @@
     ],
     "sha256": "b6508be6d3584c78067075e5136194b3352067ba677812265fef367176a1e408",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "arcades.gov": {
     "hostnames": [
@@ -82,7 +82,7 @@
     ],
     "sha256": "12cd404343ffb77b5d25fa710d125ae573d93b7b274f70f8f8693f5c4d75cd43",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "bebest.gov": {
     "hostnames": [
@@ -118,7 +118,7 @@
     ],
     "sha256": "2abcafd17e409d9af7eaf8a812b359bca652c599d6ab32b95272c76c66bb3cb2",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "cbp.gov": {
     "hostnames": [
@@ -240,13 +240,13 @@
     ],
     "sha256": "a7ba2daff31bcd25e2ad93f5b75758c40f19918511383b16081c1950c9cf64d0",
     "count": 115,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "changeofaddress.gov": {
     "hostnames": [],
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "count": 0,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "cisa.gov": {
     "hostnames": [
@@ -413,7 +413,7 @@
     ],
     "sha256": "43c5244af079c47f0416ea85401405526c48e5f0bdaaf390e118b6369b2f8a10",
     "count": 3,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "cpnireporting.gov": {
     "hostnames": [
@@ -450,7 +450,7 @@
     ],
     "sha256": "30dc5e673b967faa4ab1a7cc5efcd0e6e1c0142b11dcf79fd202ead65b7833d8",
     "count": 3,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "cybersecurity.gov": {
     "hostnames": [
@@ -459,7 +459,7 @@
     ],
     "sha256": "559c91522fa17890b565a2d1115abef313ccb03a19d3c99ad2a5f091d0e3e4e2",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "dei.gov": {
     "hostnames": [
@@ -468,7 +468,7 @@
     ],
     "sha256": "0faa2ebbd3c136e507e9d636ab1e3029a3f96020df30edb3dc337dc291917de7",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "deregulation.gov": {
     "hostnames": [
@@ -476,7 +476,7 @@
     ],
     "sha256": "8db8abf28fd9c1ec704fcaa3b17caf55bf971e5d07339539cd2d634d910ce4f2",
     "count": 1,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "dhs.gov": {
     "hostnames": [
@@ -1700,7 +1700,7 @@
     ],
     "sha256": "bc6efaba171942ee0cc1d3d39e57003aa8e5c79edd9850eec6a192b2621d1145",
     "count": 14,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "doge.gov": {
     "hostnames": [
@@ -1764,7 +1764,6 @@
       "dev.eac.gov",
       "doivpn.eac.gov",
       "eac.gov",
-      "electionintel.eac.gov",
       "exch-mail01.ad.eac.gov",
       "exch-mail02.ad.eac.gov",
       "fg1.eac.gov",
@@ -1798,9 +1797,9 @@
       "training.eac.gov",
       "www.eac.gov"
     ],
-    "sha256": "0fc2d3e69572ffafe13ae5d1f9387cbb449663e2628f8d571b477f798f959397",
-    "count": 47,
-    "last_checked": "2026-11-04"
+    "sha256": "a9c9298d6ed5750fbe4e0d7ec27839ec060a2ac09e3e43772d1ec38bbe4ea552",
+    "count": 46,
+    "last_checked": "2026-11-05"
   },
   "earlycareers.gov": {
     "hostnames": [
@@ -1809,7 +1808,7 @@
     ],
     "sha256": "11479912ded6ad3758e350a244f721553548060cfb3818fc84cdec51889dddab",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "earmarks.gov": {
     "hostnames": [
@@ -1902,7 +1901,7 @@
     ],
     "sha256": "c149df9a8f33e27041c26ec5783b4381f5cdb790d4d09d320a2e4fdd30bcfd30",
     "count": 8,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "evus.gov": {
     "hostnames": [
@@ -2007,7 +2006,7 @@
     ],
     "sha256": "3db4061a1ae0bb3b266a8196359ab8dbe828133c397df454de27427f87d2a795",
     "count": 77,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "fema.gov": {
     "hostnames": [
@@ -2426,7 +2425,7 @@
     ],
     "sha256": "cfd3f775b05b40b3a9ffc0886bff07808e85ee1dbcf33f8d7331176e4b36bbb1",
     "count": 412,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "firstrespondertraining.gov": {
     "hostnames": [
@@ -2436,7 +2435,7 @@
     ],
     "sha256": "49eb30dd5bbdca743fee57a589c8dc616aa3deefa59c818c083284e82ba4d192",
     "count": 3,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "fleta.gov": {
     "hostnames": [
@@ -2461,7 +2460,7 @@
     ],
     "sha256": "cf7575a5c92e8d672118e18be87465669fbae74de8ac921ce366de860c5dc215",
     "count": 18,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "fletc.gov": {
     "hostnames": [
@@ -2552,7 +2551,7 @@
     ],
     "sha256": "234cc6b709dd6c65d8d09187d9fdba54a3850fc6a05b6000f76b8a2b7ae55047",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "fraud.gov": {
     "hostnames": [
@@ -2575,7 +2574,7 @@
     ],
     "sha256": "38f1a08ed969426b5d2c89d7e0c8192e786c37f5fc1198c646447f2a439448c4",
     "count": 7,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "get.gov": {
     "hostnames": [
@@ -2604,7 +2603,7 @@
     ],
     "sha256": "fb4423a70eda394234a6a52a04a9096fff8267bc6c325600262dbf7ffab15886",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "helpamericavote.gov": {
     "hostnames": [
@@ -2634,7 +2633,7 @@
     ],
     "sha256": "b94d28c7c3d1aa500ab66ca04552f44bc1ae0c478c5119d311a92ae79d4e3a22",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "hstf.gov": {
     "hostnames": [
@@ -2790,7 +2789,7 @@
     ],
     "sha256": "5ec58c8a45d8a9d5dc384b858a04ec1e34dc5fb4a1534c83ae61ec7664f092ad",
     "count": 141,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "juntos.gov": {
     "hostnames": [
@@ -2802,7 +2801,7 @@
     ],
     "sha256": "885474d8b3c16b9c7aa5588bb114aa4f1c32ef5fb10ffdcca8b7a479c62ac7f4",
     "count": 5,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "know2protect.gov": {
     "hostnames": [
@@ -2811,7 +2810,7 @@
     ],
     "sha256": "f77bb7088cbc89a13b03486284075ef25abe42cf655dbf842be33ddd5004ed84",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "launch.gov": {
     "hostnames": [
@@ -2828,7 +2827,7 @@
     ],
     "sha256": "f3a9839a7fec8ac1b2e914d19904b905efc8f063e3e9fe7e81fefad6017c92c5",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "live.gov": {
     "hostnames": [
@@ -2837,7 +2836,7 @@
     ],
     "sha256": "c24e157acaf9dd3c1f65da0f83bcb619a19d0837d745bf6394a3a1298a07ae93",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "maha.gov": {
     "hostnames": [
@@ -2846,13 +2845,13 @@
     ],
     "sha256": "c7cfec8af20dfc2b6830b478276b20a002a5608739b4a8fd4135c8991ae9d424",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "mail.gov": {
     "hostnames": [],
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "count": 0,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "max.gov": {
     "hostnames": [
@@ -2917,7 +2916,7 @@
     ],
     "sha256": "85f819be2dc66d9f4c2d3ba0597a2eb2146e07d4f60292f7df8e127f7e254a3c",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "myusps.gov": {
     "hostnames": [
@@ -2925,7 +2924,7 @@
     ],
     "sha256": "c853ff342fb75972ca39a47f41d271fd15da6b6d78abb23dd722abe1f04adad0",
     "count": 1,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "nano.gov": {
     "hostnames": [
@@ -2971,7 +2970,7 @@
     ],
     "sha256": "caec765416f10c65c68919ce13ec6fd5d540108bfa250820612c47d2574ea558",
     "count": 12,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "ndstudio.gov": {
     "hostnames": [
@@ -3038,7 +3037,7 @@
     ],
     "sha256": "64a108bc7816f3bbc5e7a26dc40beead0a15123866ec95998b80e27943dfc7ac",
     "count": 60,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "nepa.gov": {
     "hostnames": [
@@ -3094,7 +3093,6 @@
       "stage.omb.gov",
       "staging.omb.gov",
       "test.omb.gov",
-      "uat.omb.gov",
       "www-test.omb.gov",
       "www.budget.omb.gov",
       "www.collect.omb.gov",
@@ -3104,9 +3102,9 @@
       "www.meetings.max.omb.gov",
       "www.omb.gov"
     ],
-    "sha256": "af581e68a8a4746b05c6e22bccdb0cdb73f9c579e71b1625f9c6ef91f10dbb0b",
-    "count": 28,
-    "last_checked": "2026-11-03"
+    "sha256": "9adbf1b035fd1eb3dac65bb2bbf36e0d28e9db6f3b40f0abdd91665c6b23bd43",
+    "count": 27,
+    "last_checked": "2026-11-05"
   },
   "ondcp.gov": {
     "hostnames": [
@@ -3136,7 +3134,7 @@
     ],
     "sha256": "c94b13f3150e12e124b3c5640607578987fd9ef9fe8a8547dc89344da96edb5e",
     "count": 5,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "pci.gov": {
     "hostnames": [
@@ -3513,7 +3511,7 @@
     ],
     "sha256": "697c8508348fe08d5b429912578ce131f89283e843a799e8c08eb58e2c377223",
     "count": 3,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "prc.gov": {
     "hostnames": [
@@ -3543,7 +3541,7 @@
     "hostnames": [],
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "count": 0,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "quantum.gov": {
     "hostnames": [
@@ -3620,7 +3618,7 @@
     ],
     "sha256": "7e87e3705e1209e5f2771f74810c920e4c34ee2fa207445d046cb043dc51959b",
     "count": 9,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "saveamerica.gov": {
     "hostnames": [
@@ -3740,7 +3738,7 @@
     ],
     "sha256": "3e4bee597d191462b2f8914de23cd9e8b0d22eb8673a26bbab52f767cc8fc719",
     "count": 5,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "transparency.gov": {
     "hostnames": [
@@ -3773,7 +3771,7 @@
     ],
     "sha256": "2faa5b41ae4cac8356e06f95ae3a45b754bbed4b82ca681c641326d60a135cfd",
     "count": 17,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "trumpira.gov": {
     "hostnames": [
@@ -3815,7 +3813,7 @@
     ],
     "sha256": "b6070d12232e000bd74a502acd12fbd31b504fe846b9b2793c9e93fff797430e",
     "count": 26,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "trumptv.gov": {
     "hostnames": [
@@ -3824,7 +3822,7 @@
     ],
     "sha256": "4f5736308fb29304a69d4336314f00f89b348c111fc084c727b7f0152b06dd58",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "tsa.gov": {
     "hostnames": [
@@ -3894,7 +3892,7 @@
     ],
     "sha256": "bb44da0b01f231d56f76145b375575788ec633aa2454e70944ab2b6eb81c5810",
     "count": 1,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "uscg.gov": {
     "hostnames": [
@@ -3956,7 +3954,7 @@
     ],
     "sha256": "229f087f0507c47b7e236642a76bfa1b2328d6486584092e9fc3d904648db740",
     "count": 55,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "uscis.gov": {
     "hostnames": [
@@ -4109,7 +4107,7 @@
     ],
     "sha256": "9a303a0c5cfe3386a57b85afce3a1c293bd8b5c43d4594ea43bf30bed9374e29",
     "count": 146,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "usdigitalservice.gov": {
     "hostnames": [
@@ -4119,7 +4117,7 @@
     ],
     "sha256": "9ce904c8b1e17bee8efe25e8d5b8b11981e5c76e295852a4d285a4fbbf43837a",
     "count": 3,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "usds.gov": {
     "hostnames": [
@@ -4219,7 +4217,7 @@
     ],
     "sha256": "d2270f67ff2aae6622c01a31acb5dd819cfd82bd713460ea740951f024608d3b",
     "count": 73,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "usps.com": {
     "hostnames": [
@@ -5432,7 +5430,7 @@
     ],
     "sha256": "9d6a16756c829b7c2d9432d1136270db3b6ee1df2a26ab65382d5acd13a6ab10",
     "count": 1206,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "usps.gov": {
     "hostnames": [
@@ -6501,7 +6499,7 @@
     ],
     "sha256": "39a9968ab2bdc6b56194359674568aa640f03587f4b2f437e1bec90dcb6f7c14",
     "count": 1,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "uspsinnovates.gov": {
     "hostnames": [
@@ -6510,7 +6508,7 @@
     ],
     "sha256": "7f94d5ec0819f45356fd9c7b603c368e0389ad628b80b77153a7bac077d01273",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "uspsoig.gov": {
     "hostnames": [
@@ -6620,7 +6618,7 @@
     ],
     "sha256": "68bdaca430b65310e9e5998b97d5d7416ed1e906138f97a38db0083731e89377",
     "count": 103,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "usss.gov": {
     "hostnames": [
@@ -6727,7 +6725,7 @@
     ],
     "sha256": "002a125afee6724c92e6458ca90f2322de5a0e4149ceccc490559c02188b5ec2",
     "count": 2,
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-05"
   },
   "waste.gov": {
     "hostnames": [
@@ -6736,7 +6734,7 @@
     ],
     "sha256": "9e78d6584fce9f620692c9599cd8750d281ee55b5f9f32cc430e6db545f2a253",
     "count": 2,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "wh.gov": {
     "hostnames": [
@@ -6759,7 +6757,7 @@
     ],
     "sha256": "e7ad5163cf304f6c97d30ed8c8ba72262d12653e06473be6e5b558d0b1e7e335",
     "count": 1,
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-05"
   },
   "whes.gov": {
     "hostnames": [
@@ -6825,7 +6823,7 @@
     ],
     "sha256": "b035edb0abe2441596ff9249deebee62244a63dc8513f13468720c058e9d4ed6",
     "count": 51,
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-05"
   },
   "whms.gov": {
     "hostnames": [
