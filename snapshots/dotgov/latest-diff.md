@@ -1,0 +1,2 @@
+- ~~get.gov~~ (dropped from the registry)
+- ~~trumpira.gov~~ (dropped from the registry)
