@@ -65,7 +65,9 @@ def main() -> int:
     digest = hashlib.sha256(",".join(domains).encode()).hexdigest()
 
     manifest = load_manifest()
-    if any(entry["sha256"] == digest for entry in manifest):
+    # Compare with the LATEST snapshot only. Matching any past entry treated a domain
+    # set that reverted to an earlier one (a drop, then a re-add) as "unchanged".
+    if manifest and manifest[-1]["sha256"] == digest:
         print(f"unchanged ({len(domains)} watched domains)")
         return 0
 
