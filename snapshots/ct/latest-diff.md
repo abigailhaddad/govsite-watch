@@ -1,0 +1,2 @@
+- forge.ndstudio.gov — no prior CT history — genuinely new
+- riders.ndstudio.gov — CT history: 1 cert(s), first 2026-10-15, last 2026-10-15
