@@ -22,5 +22,11 @@
     "sha256": "2d71033e7ac72c0e3090a5544aedd7833a44f46b200bb968557e255a6c0763a0",
     "domains": 124,
     "file": "dotgov-2026-11-07.csv.gz"
+  },
+  {
+    "captured": "2026-11-14",
+    "sha256": "809db2fb9b2b9051cab144d008d4d8128f623caf0a7d9029b053d5ae55a3627d",
+    "domains": 122,
+    "file": "dotgov-2026-11-14.csv.gz"
   }
 ]
