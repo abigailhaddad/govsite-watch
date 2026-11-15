@@ -1,2 +1,0 @@
-- ~~earlycareers.gov~~ (dropped from the registry)
-- ~~techforce.gov~~ (dropped from the registry)
