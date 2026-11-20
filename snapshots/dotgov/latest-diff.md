@@ -1,1 +1,0 @@
-- ~~nasaforce.gov~~ (dropped from the registry)
